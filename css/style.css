@@ -11801,6 +11801,12 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     text-transform: capitalize;
 }
 
+.footer-area h4 {
+    color: rgb(182, 0, 0);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
 .footer-about p{
     color: #f5f7f9;
 }
@@ -11809,7 +11815,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     line-height: 1;
     margin-bottom: 20px;
 }
-
+.subscribe-content h4 {
+    color: rgb(182, 0, 0);
+	line-height: 1;
+    margin-bottom: 20px;
+}
 .subsriber-form {
     height: 60px;
     position: relative;
@@ -11848,3 +11858,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     color: #01023b;
 }
 
+#buscando {
+    position: center;
+    left: 790px;
+    top: 7px;
+    visibility: visible;
+}
